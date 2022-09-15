@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@android:color/white"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	android:id="@+id/btnBack"
+    android:background="#2c3e50"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<Button android:id="@+id/btn5"
+	android:backgroundTint="#2c3e50"
+	android:textColor="@android:color/white"
+	android:text="Back"
+	android:drawableStart="@drawable/abc_ic_ab_back_material"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+		</LinearLayout>
+		<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1" >
+
+		<LinearLayout 
+	    android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<TextView
+		android:text="Enter your information Here."
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:textAlignment="center"
+		android:layout_height="wrap_content"
+		android:background="@android:color/holo_blue_dark"
+		android:layout_marginLeft="1dp"
+		android:layout_marginRight="1dp"
+		android:id="@+id/textView1" />
+	<EditText
+		android:hint="072324...."
+		android:inputType="phone"
+		android:textAlignment="center"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:drawableLeft="@android:drawable/stat_sys_vp_phone_call"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText1" />
+	<EditText
+		android:hint="first name"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText2" />
+	<EditText
+		android:autofillHints=""
+		android:hint="Last Name"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText3" />
+	<EditText
+		android:autofillHints=""
+		android:hint="National ID"
+		android:layout_width="match_parent"
+		android:inputType="phone"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText4" />
+	<EditText
+		android:autofillHints=""
+		android:hint="Upload your documents"
+		android:layout_width="match_parent"
+		android:inputType="none"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText5" />
+			<CheckBox
+				android:text="Agreed to our Terms and conditions"
+		android:layout_marginLeft="20dp"
+		android:textColor="@android:color/holo_blue_dark"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/checkBox1" />
+			<Button
+				android:text="Send"
+				android:layout_marginTop="10dp"
+				android:layout_width="300dp"
+				android:layout_marginLeft="40dp"
+				android:background="@android:color/holo_blue_bright"
+				android:layout_height="wrap_content"
+				android:id="@+id/button1" />
+			<Button
+				android:text="Cancel"
+				android:layout_marginTop="10dp"
+				android:layout_width="300dp"
+				android:layout_marginLeft="40dp"
+				android:background="@android:color/holo_red_light"
+				android:layout_height="wrap_content"
+				android:id="@+id/button2" />
+	<ListView
+		android:layout_marginTop="10dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:choiceMode="singleChoice"
+		android:layout_width="match_parent"
+		android:layout_height="640dp"
+		android:id="@+id/lstView4" />
+			</LinearLayout>
+		</ScrollView>
+</LinearLayout>
+

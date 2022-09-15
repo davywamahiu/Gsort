@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@mipmap/lake"
+    android:layout_height="match_parent">
+		<GridLayout
+			android:minWidth="25px"
+			android:minHeight="25px"
+		    android:columnCount="2"
+		    android:rowCount="3"
+		android:layout_gravity="center_horizontal|center_vertical"
+		android:alignmentMode="alignMargins"
+		android:columnOrderPreserved="false"
+		android:layout_weight="8"
+		android:padding="16dp"
+			android:layout_width="match_parent"
+			android:layout_height="1000dp"
+			android:id="@+id/gridLayout1" >
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			 android:layout_marginBottom="6dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="6dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Nakuru Town Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			 android:layout_marginBottom="6dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Naivasha Town Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			 android:layout_marginTop="6dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="6dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="match_parent"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Molo Town Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			 android:layout_marginTop="6dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Gilgil Town Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			 android:layout_marginTop="6dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Bahati Township Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		<android.support.v7.widget.CardView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="0dp"
+			android:layout_columnWeight="1"
+			android:layout_rowWeight="1"
+			android:layout_height="0dp"
+			 android:layout_marginTop="6dp"
+			android:layout_marginLeft="3dp"
+			android:layout_marginRight="3dp"
+			android:padding="16dp"
+			android:id="@+id/cardView1" >
+			<LinearLayout
+				android:orientation="vertical"
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:id="@+id/linearLayout1" >
+				<ImageView
+					android:src="@mipmap/lake"
+					android:layout_width="wrap_content"
+					android:layout_height="100dp"
+					android:id="@+id/imageView1" />
+				<TextView
+					android:text="Subukia Township Garbage Collection."
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:id="@+id/textView1" />
+				<TextView
+					android:text="Want to pay or subscribe"
+					android:textAppearance="?android:attr/textAppearanceSmall"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:textColor="@android:color/holo_blue_dark"
+					android:id="@+id/textView2" />
+
+				</LinearLayout>
+
+			</android.support.v7.widget.CardView>
+		</GridLayout>
+
+		</LinearLayout>

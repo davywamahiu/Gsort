@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@android:color/white"
+    android:layout_height="match_parent">
+		<LinearLayout 
+	    android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+			<LinearLayout 
+	android:id="@+id/btnBack"
+    android:background="#2c3e50"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<Button android:id="@+id/btn5"
+	android:backgroundTint="#2c3e50"
+	android:textColor="@android:color/white"
+	android:text="Back"
+	android:drawableStart="@drawable/abc_ic_ab_back_material"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+		</LinearLayout>
+	<EditText
+		android:gravity="center_vertical"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:hint="Name"
+		android:inputType="textPersonName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1" />
+	<EditText
+		android:layout_gravity="center_vertical"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:hint="ID 120....4"
+		android:inputType="number"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText2" />
+	<LinearLayout
+		android:background="@android:drawable/screen_background_dark_transparent"
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:textAlignment="center"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:id="@+id/linearLayout133"
+		>
+				<TextView
+		android:text="Select your housing plan"
+		android:layout_marginLeft="60dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:textColor="@android:color/holo_red_dark"	
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView39" />
+	<Spinner
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginTop="20dp"
+		android:entries="@array/house"
+		android:backgroundTintMode="screen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner1" />
+    <Spinner
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginTop="20dp"
+		android:backgroundTintMode="screen"
+		android:entries="@array/rooms"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner5" />
+	<Spinner
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginTop="20dp"
+		android:backgroundTintMode="screen"
+		android:entries="@array/occupied"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner4" />
+		<Spinner
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginTop="20dp"
+		android:entries="@array/rent"
+		android:backgroundTintMode="screen"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner2" />
+		<Spinner
+		android:layout_marginLeft="50dp"
+		android:layout_marginRight="50dp"
+		android:layout_marginTop="20dp"
+		android:backgroundTintMode="screen"
+		android:entries="@array/location"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/spinner3" />
+
+			<Button
+		android:layout_marginTop="20dp"
+		android:text="SUBMIT"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button17" />
+				<ListView
+					android:minWidth="25px"
+					android:minHeight="25px"
+				    android:layout_margin="10dp"
+					android:layout_width="match_parent"
+					android:layout_height="400px"
+					android:id="@+id/listView1" />
+				<include layout="@layout/nbsupport"/>
+				</LinearLayout>
+		</LinearLayout>
+</LinearLayout>

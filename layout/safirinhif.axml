@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	android:id="@+id/btnBack"
+    android:background="#2c3e50"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<Button android:id="@+id/btn5"
+	android:backgroundTint="#2c3e50"
+	android:textColor="@android:color/white"
+	android:text="Back"
+	android:drawableStart="@drawable/abc_ic_ab_back_material"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+		</LinearLayout>
+	<android.webkit.WebView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/webView1" />
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<LinearLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="5dp"
+		android:layout_marginBottom="5dp"
+		android:background="@color/material_grey_300"
+		android:layout_width="match_parent"
+		android:layout_height="100px"
+		android:id="@+id/relativeLayout1">
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="60dp"
+			android:layout_marginLeft="10dp"
+			android:textColor="@android:color/black"
+			android:layout_height="50dp"
+			android:id="@+id/txtView1" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_toRightOf="@+id/textView1"
+			android:layout_width="60dp"
+			android:textColor="@android:color/black"
+			android:layout_height="40dp"
+			android:id="@+id/txtView2" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_toRightOf="@+id/textView1"
+			android:layout_alignBottom="@+id/textView2"
+			android:layout_width="75dp"
+			android:textColor="@android:color/black"
+			android:layout_height="40dp"
+			android:id="@+id/txtView3" />
+		
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_width="160dp"
+			android:textColor="@android:color/holo_purple"
+			android:layout_below="@id/txtView1"
+			android:layout_height="50dp"
+			android:id="@+id/txtView4" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:layout_toRightOf="@+id/textView4"
+			android:layout_below="@id/txtView3"
+			android:layout_width="100dp"
+			android:layout_height="40dp"
+			android:layout_marginLeft="10dp"
+			android:id="@+id/txtView5" />
+		<TextView
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:layout_toRightOf="@+id/textView4"
+			android:layout_below="@id/txtView5"
+			android:layout_width="100dp"
+			android:layout_marginLeft="10dp"
+			android:layout_height="40dp"
+			android:id="@+id/txtView6" />
+		</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@mipmap/lake"
+    android:layout_height="match_parent">
+	<LinearLayout 
+	android:id="@+id/btnBack"
+    android:background="#2c3e50"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+	<Button android:id="@+id/btn5"
+	android:backgroundTint="#2c3e50"
+	android:textColor="@android:color/white"
+	android:text="Back"
+	android:drawableStart="@drawable/abc_ic_ab_back_material"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+		</LinearLayout>
+			<HorizontalScrollView
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/horizontalScrollView1" >
+		<LinearLayout 
+	    android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+	<android.support.v7.widget.CardView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/cardView1">		
+	<RelativeLayout
+		android:background="@color/material_grey_50"
+		android:minWidth="25px"
+		android:minHeight="300dp"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+	<ImageView
+		android:src="@mipmap/soko"
+		android:layout_width="fill_parent"
+		android:layout_height="180dp"
+		android:id="@+id/imageView90" />
+	<TextView
+		android:text="Nakuru Level 5 Hospital"
+		android:layout_below="@id/imageView90"
+		android:textColor="@android:color/holo_blue_dark"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="60dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView91" />
+	<TextView
+		android:text="Fomerly the Riftvalley General Hospital. It is the county main referal Hospital, It is well equiped with modern equipment. The Hopital prides itself to among the best Hopitals in the country. Services are offered by qualified medics with vast experince levels, Kindly Seek medical advice with us with us"
+		android:textColor="@android:color/black"
+		android:layout_marginLeft="20dp"
+		android:layout_below="@id/textView91"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView92" />
+		
+		</RelativeLayout>
+			</android.support.v7.widget.CardView>
+	<android.support.v7.widget.CardView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/cardView1">		
+	<RelativeLayout
+		android:background="@color/material_grey_50"
+		android:minWidth="25px"
+		android:minHeight="300dp"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+	<ImageView
+		android:src="@mipmap/soko"
+		android:layout_width="fill_parent"
+		android:layout_height="180dp"
+		android:id="@+id/imageView90" />
+	<TextView
+		android:text="Nakuru Level 5 Hospital"
+		android:layout_below="@id/imageView90"
+		android:textColor="@android:color/holo_blue_dark"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="60dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView91" />
+	<TextView
+		android:text="Fomerly the Riftvalley General Hospital. It is the county main referal Hospital, It is well equiped with modern equipment. The Hopital prides itself to among the best Hopitals in the country. Services are offered by qualified medics with vast experince levels, Kindly Seek medical advice with us with us"
+		android:textColor="@android:color/black"
+		android:layout_marginLeft="20dp"
+		android:layout_below="@id/textView91"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView92" />
+		
+		</RelativeLayout>
+			</android.support.v7.widget.CardView>
+	<android.support.v7.widget.CardView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/cardView1">		
+	<RelativeLayout
+		android:background="@color/material_grey_50"
+		android:minWidth="25px"
+		android:minHeight="300dp"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+	<ImageView
+		android:src="@mipmap/soko"
+		android:layout_width="fill_parent"
+		android:layout_height="180dp"
+		android:id="@+id/imageView90" />
+	<TextView
+		android:text="Nakuru Level 5 Hospital"
+		android:layout_below="@id/imageView90"
+		android:textColor="@android:color/holo_blue_dark"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="60dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView91" />
+	<TextView
+		android:text="Fomerly the Riftvalley General Hospital. It is the county main referal Hospital, It is well equiped with modern equipment. The Hopital prides itself to among the best Hopitals in the country. Services are offered by qualified medics with vast experince levels, Kindly Seek medical advice with us with us"
+		android:textColor="@android:color/black"
+		android:layout_marginLeft="20dp"
+		android:layout_below="@id/textView91"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView92" />
+		
+		</RelativeLayout>
+			</android.support.v7.widget.CardView>
+	<android.support.v7.widget.CardView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_margin="10dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/cardView1">		
+	<RelativeLayout
+		android:background="@color/material_grey_50"
+		android:minWidth="25px"
+		android:minHeight="300dp"
+		android:layout_width="300dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+	<ImageView
+		android:src="@mipmap/soko"
+		android:layout_width="fill_parent"
+		android:layout_height="180dp"
+		android:id="@+id/imageView90" />
+	<TextView
+		android:text="Nakuru Level 5 Hospital"
+		android:layout_below="@id/imageView90"
+		android:textColor="@android:color/holo_blue_dark"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="60dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView91" />
+	<TextView
+		android:text="Fomerly the Riftvalley General Hospital. It is the county main referal Hospital, It is well equiped with modern equipment. The Hopital prides itself to among the best Hopitals in the country. Services are offered by qualified medics with vast experince levels, Kindly Seek medical advice with us with us"
+		android:textColor="@android:color/black"
+		android:layout_marginLeft="20dp"
+		android:layout_below="@id/textView91"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView92" />
+		
+		</RelativeLayout>
+			</android.support.v7.widget.CardView>
+			</LinearLayout>
+	</HorizontalScrollView>
+<ListView
+		android:layout_marginTop="10dp"
+	    android:divider="@color/material_grey_600"
+	    android:dividerHeight="6dp"
+		android:background="@drawable/layout_bg"
+		android:layout_width="match_parent"
+		android:layout_height="200dp"
+		android:fadingEdge="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/listView72"/>
+</LinearLayout>
