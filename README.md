@@ -10,5 +10,5 @@ Services managed include;
 4. Land rates and housing
 
 A market screenshot
-<img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg" alt="Alt text" title="Use of MPESA.">
+<img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg" height="100" width="50" alt="Alt text" title="Use of MPESA.">
 
