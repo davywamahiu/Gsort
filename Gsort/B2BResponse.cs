@@ -1,11 +1,11 @@
-﻿using RestSharp.Deserializers;
-
+﻿using System;
+using RestSharp.Deserializers;
 namespace Gsort
 {
     /// <summary>
-    /// Transaction status response.
+    /// B2C Response.
     /// </summary>
-    public class TransactionStatusResponse
+    public class B2CResponse : GenericResponse
     {
         /// <summary>
         /// Gets or sets the response code.

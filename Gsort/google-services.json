@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "629429059971",
+    "firebase_url": "https://gsort-398b4.firebaseio.com",
+    "project_id": "gsort-398b4",
+    "storage_bucket": "gsort-398b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629429059971:android:dab8e9e6aeb33b0a21b6b6",
+        "android_client_info": {
+          "package_name": "Gsort.Gsort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629429059971-tr620obogvheaq3m6mkedn986m2detr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzZz8q0xX3xxurQFZcgShiTHnwdxtn4iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629429059971-tr620obogvheaq3m6mkedn986m2detr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629429059971:android:6f8c772dc37e4f7c21b6b6",
+        "android_client_info": {
+          "package_name": "com.xamarin.gsort"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629429059971-tr620obogvheaq3m6mkedn986m2detr9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzZz8q0xX3xxurQFZcgShiTHnwdxtn4iw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629429059971-tr620obogvheaq3m6mkedn986m2detr9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
