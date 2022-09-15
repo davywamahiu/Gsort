@@ -11,7 +11,7 @@ Services managed include;
 Login and registration.
 <img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-204631.jpg" height="300" width="150" alt="Alt text" title="Use of MPESA.">
 Homescreen
-<img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200421-000340.jpg" height="300" width="150" alt="Alt text" title="Use of MPESA.">
+<img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200421-000145.jpg" height="300" width="150" alt="Alt text" title="Use of MPESA.">
 A market screenshot
 <img src="https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg" height="300" width="150" alt="Alt text" title="Use of MPESA.">
 Mpesa Toolkilt
