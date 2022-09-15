@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+	android:background="@color/material_grey_800"
+    android:fitsSystemWindows="?android:attr/windowContentTransitions"
+	android:isScrollContainer="true"
+    android:layout_height="wrap_content">
+				<ScrollView
+				android:minWidth="25px"
+				android:minHeight="25px"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:id="@+id/ScrollView1" >
+		<LinearLayout 
+	    android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:backgroundTint="#2c3e50"
+		android:background="@android:color/holo_blue_light"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+			<TextView
+		android:text="Settings"
+		android:layout_marginLeft="130dp"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView9" />
+	<Button android:id="@+id/btn5"
+	android:text="Back"
+	android:background="#2c3e50"
+	android:textColor="@android:color/white"
+	android:drawableStart="@drawable/abc_ic_ab_back_material"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"/>
+		</LinearLayout>
+
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout2">
+			<SearchView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:id="@+id/searchView1" />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout3">
+								<Switch
+			android:text="Save my work"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/switch1" />
+		</LinearLayout>
+		<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout4">
+				<Switch
+			android:text="Data connection"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/switch2" />
+		</LinearLayout>
+
+		<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout4">
+		<Button
+			android:text="General settings"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button19" />
+
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout4">
+		<Button
+			android:text="View Notifications"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button19" />
+
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout4">
+				<Switch
+			android:text="Change Language English/Swahili"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/switch3" />
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout13">
+		<Button
+			android:text="Citizen Trust"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button17" />
+
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout11">
+		<Button
+			android:text="The county Assembly"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button16" />
+
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout9">
+		<Button
+			android:text="County delivery Team"
+
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button15" />
+
+		</LinearLayout>
+				<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout21">
+		<Button
+			android:text="Office of the Governor"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button20" />
+
+		</LinearLayout>
+			<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="10dp"
+		android:background="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout5">
+		<Button
+			android:text="About"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/button14" />
+
+		</LinearLayout>
+			</LinearLayout>
+		</ScrollView>
+</LinearLayout>

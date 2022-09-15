@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:gravity="center_horizontal"
+	android:background="@android:color/transparent"
+	android:textAlignment="center"
+    android:layout_height="104dp">
+	<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+		    android:layout_marginTop="4dp"
+	        android:background="@drawable/layout_bg"
+			android:layout_width="wrap_content"
+			android:layout_height="100dp"
+		
+			android:id="@+id/linearLayout1" >
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="350dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout1">
+	<TextView
+		android:text="Mpesa"
+		android:textColor="@android:color/holo_green_dark"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="60dp"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:id="@+id/textView1" />
+	<TextView
+		android:text="NK45HH434VGB34, Confirmed you have received"
+		android:layout_below="@id/textView1"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="300dp"
+		android:textSize="12sp"
+		android:gravity="center_horizontal"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2" />
+	<TextView
+		android:text="2020/10/20"
+		android:layout_toRightOf="@id/textView1"
+				android:textSize="12sp"
+		android:layout_width="190dp"
+		android:textColor="@android:color/holo_blue_dark"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3" />
+		<TextView
+		android:text="hint"
+		android:layout_alignParentRight="true"
+		 android:textSize="12sp"
+		android:layout_width="100dp"
+		android:textColor="@color/material_grey_800"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView19" />
+	
+		
+		</RelativeLayout>
+	<RelativeLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="350dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/relativeLayout2">
+		<TextView
+		android:text="Vehicle"
+		android:textAppearance="?android:attr/textAppearanceSmall"
+		android:layout_width="100dp"
+		android:textColor="@android:color/holo_red_dark"
+		android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4" />
+		<TextView
+		android:text="Town"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="140dp"
+		android:textColor="@android:color/holo_green_light"
+		android:layout_toRightOf="@id/textView4"
+		android:layout_alignParentBottom="true"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView5" />
+	   <ImageView
+			android:src="@android:drawable/ic_menu_delete"
+			android:layout_width="50dp"
+			android:layout_height="wrap_content"
+			android:layout_alignParentRight="true"
+		    android:layout_alignParentBottom="true"
+			android:layout_below="@id/textView1"
+			android:id="@+id/imageView1" />
+		<View
+		android:layout_width="340dp"
+		android:layout_height="2dp"
+		android:layout_marginLeft="5dp"
+		android:background="#ffffff"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/view1" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>

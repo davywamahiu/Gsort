@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+		<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1" >
+		<LinearLayout 
+	    android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+		<TextView
+		android:text="Read through and fill out the form"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:color/holo_blue_dark"
+		android:layout_marginLeft="1dp"
+		android:layout_marginRight="1dp"
+		android:id="@+id/textView1" />
+	<TextView
+		android:text="Soko Mjinga is located at the heart of Nakuru Town. 
+It is used by the busy fresh market producers both
+ localy and nationaly. It is an important market for 
+people living within Nakuru Town. Due to the presence
+ of a large market base it provides livelyhood for 
+tens of thousands. Send your details to apply or book space."
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+				android:textAlignment="center"
+		android:background="@color/material_grey_50"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/textView2" />
+	<EditText
+		android:hint="072324...."
+		android:inputType="phone"
+		android:textAlignment="center"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:drawableLeft="@android:drawable/stat_sys_vp_phone_call"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText1" />
+	<EditText
+		android:hint="What do you sell"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText2" />
+	<EditText
+		android:autofillHints=""
+		android:hint="State county of origin"
+		android:layout_width="match_parent"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:layout_height="wrap_content"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_dark"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:textColorHint="@android:color/holo_blue_light"
+		android:id="@+id/eText3" />
+	<TextView
+		android:text="Select current Sub County residence"
+		android:layout_width="360dp"
+		android:layout_height="20dp"
+		android:background="@color/material_grey_50"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/textView2" />
+		
+	<TextView
+		android:text="Chagua Eneo Bunge Unalotoka"
+		android:layout_width="360dp"
+		android:layout_height="20dp"
+		android:background="@color/material_grey_50"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="20dp"
+		android:id="@+id/textView2" />
+	<ListView
+		android:layout_marginTop="10dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:choiceMode="singleChoice"
+		android:layout_width="match_parent"
+		android:layout_height="640dp"
+		android:id="@+id/lstView4" />
+			</LinearLayout>
+		</ScrollView>
+</LinearLayout>

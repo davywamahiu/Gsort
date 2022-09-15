@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<android.support.v7.widget.AlertDialogLayout
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_gravity="center_vertical|center_horizontal|bottom"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/alertDialogLayout1">
+		<TextView
+		android:text="Message Body"
+		android:textAlignment="center"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1" />
+		</android.support.v7.widget.AlertDialogLayout>
+	<EditText
+		android:inputType="phone"
+		android:hint="070000...."
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1" />
+	<EditText
+		android:inputType="textMultiLine"
+		android:hint="Enter Complement or Suggestion"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText2" />
+	<Button
+		android:text="Send Message"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/button1" />
+	<ListView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:background="@android:color/holo_blue_dark"
+		android:layout_width="match_parent"
+		android:layout_height="120dp"
+		android:id="@+id/listView1" />
+	
+	
+	
+
+</LinearLayout>

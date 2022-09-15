@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@mipmap/kenyatta"
+	android:paddingVertical="25px">
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/scrollView1" >
+	<LinearLayout
+		android:orientation="vertical"
+		android:gravity="center_vertical"
+	    android:background="@android:drawable/screen_background_dark_transparent"
+		android:minHeight="25px"
+		android:minWidth="25px"
+		android:layout_width="380dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+<Refractored.Controls.CircleImageView
+		android:src="@mipmap/shellnak"
+		android:minHeight="25px"
+		android:minWidth="25px"		
+		app:civ_border_color="@android:color/white"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/circleImageView3" />
+			<ProgressBar
+				android:layout_width="match_parent"
+				android:layout_height="30dp"
+				android:id="@+id/progressBar1" />
+	<EditText
+		android:inputType="textPersonName"
+		android:hint="ENTER FIRST NAME"
+		android:textAlignment="center"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:textColor="@android:color/holo_blue_bright"
+		android:textColorHint="@android:color/holo_blue_bright"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText1" />
+	<EditText
+		android:inputType="textPersonName"
+		android:hint="ENTER LAST NAME"
+		android:textAlignment="center"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:textColor="@android:color/holo_blue_bright"
+		android:textColorHint="@android:color/holo_blue_bright"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText2" />
+	<EditText
+		android:inputType="phone"
+		android:hint="070..34..56"
+		android:textAlignment="center"
+		android:textColor="@android:color/holo_blue_bright"
+		android:textColorHint="@android:color/holo_blue_bright"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:drawableLeft="@android:drawable/stat_sys_vp_phone_call"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText3" />
+	<EditText
+		android:inputType="textPassword"
+		android:hint="PASSWORD"
+		android:drawableStart="@android:drawable/ic_secure"
+		android:textAlignment="center"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:textColorHint="@android:color/holo_blue_bright"
+		android:textColor="@android:color/holo_blue_bright"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText4" />
+	<EditText
+		android:textColor="@android:color/holo_blue_bright"
+		android:inputType="textPassword"
+		android:hint="CONFIRM PASSWORD"
+		android:textAlignment="center"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:textColorHint="@android:color/holo_blue_bright"
+		android:drawableStart="@android:drawable/ic_secure"
+		android:backgroundTint="@android:color/holo_green_light"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/editText5" />
+
+	<CheckBox
+		android:text="Agree to our T and C"
+		android:layout_width="match_parent"
+		android:textColor="@android:color/holo_blue_bright"
+		android:layout_marginLeft="30dp"
+		android:layout_marginRight="30dp"
+		android:layout_marginTop="2dp"
+		android:minHeight="25px"
+		android:minWidth="25px"	
+		android:layout_height="wrap_content"
+		android:id="@+id/checkBox1" />
+		
+	<Button
+		android:text="Register"
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="30dp"
+		android:minHeight="50px"
+		android:minWidth="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:id="@+id/button45" />
+		<LinearLayout
+		android:layout_marginTop="2dp"
+		android:orientation="horizontal"
+		android:minWidth="25px"
+	    android:background="@android:drawable/screen_background_dark_transparent"
+		android:minHeight="25px"	
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout1">
+		<Button
+		android:text="Login"
+		android:layout_marginTop="4dp"
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="30dp"
+		android:minHeight="50px"
+		android:minWidth="25px"	
+	   android:backgroundTint="@android:color/holo_green_dark"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:id="@+id/button46" />
+			</LinearLayout>
+		</LinearLayout>
+		</ScrollView>
+</LinearLayout>
