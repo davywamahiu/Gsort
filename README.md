@@ -8,3 +8,6 @@ Services managed include;
 2. Markets.
 3. NHIF
 4. Land rates and housing
+
+A market screenshot
+https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg
