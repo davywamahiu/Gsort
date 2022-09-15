@@ -10,4 +10,5 @@ Services managed include;
 4. Land rates and housing
 
 A market screenshot
-https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg
+<img src="[/path/to/img.jpg](https://github.com/davywamahiu/Gsort/blob/main/Images/Screenshot_20200416-205409.jpg)" alt="Alt text" title="Optional title">
+
